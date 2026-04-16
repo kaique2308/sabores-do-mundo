@@ -124,7 +124,7 @@ TheMealDB API (REST, gratuita)
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/sabores-do-mundo.git
+git clone https://github.com/kaique2308/sabores-do-mundo.git
 cd sabores-do-mundo
 ```
 
@@ -181,6 +181,7 @@ netlify deploy --prod --dir=build
 ## 📡 API Utilizada
 
 **TheMealDB** — [https://www.themealdb.com/api.php]
+(https://www.themealdb.com/api.php)
 
 - ✅ Gratuita
 - ✅ Sem necessidade de chave de API
