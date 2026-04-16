@@ -7,14 +7,18 @@ Aplicação React que consome a [TheMealDB API](https://www.themealdb.com/api.ph
 ---
 
 ## 📸 Prints
-Página inicial
+**Página inicial**
+
 <img width="1366" height="768" alt="Página Inicial" src="https://github.com/user-attachments/assets/93af5621-58e5-400b-a443-626900d9ef63" />
-Página de categorias
+**Página de categorias**
+
 <img width="1366" height="768" alt="Página de Categorias" src="https://github.com/user-attachments/assets/5ce0cc43-51f4-45a4-bd49-f716708266e8" />
-Página de uma Receita
+**Página de uma Receita**
+
 <img width="1366" height="768" alt="Receita" src="https://github.com/user-attachments/assets/2cb0f314-1fe9-4694-a040-9ead36d19a6b" />
 <img width="1366" height="768" alt="Modo de Preparo" src="https://github.com/user-attachments/assets/017640ef-a47a-42eb-b786-8b1b6732ea95" />
-Página de Culinárias
+**Página de Culinárias**
+
 <img width="1366" height="768" alt="Página de Culinárias" src="https://github.com/user-attachments/assets/4c142eee-c7ed-4561-b4b2-2f535e24ac50" />
 
 
