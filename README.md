@@ -33,7 +33,7 @@ Aplicação React que consome a [TheMealDB API](https://www.themealdb.com/api.ph
 
 ## 🔗 Acesso Online
 
-> **[https://sabores-do-mundo-marinha.vercel.app](https://sabores-do-mundo-marinha.vercel.app)**
+> **[[https://sabores-do-mundo-marinha.vercel.app](https://sabores-do-mundo-marinha.vercel.app)](https://sabores-do-mundo-8ue4xtgbj-kaique2308s-projects.vercel.app/)**
 
 ---
 
