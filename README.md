@@ -180,8 +180,7 @@ netlify deploy --prod --dir=build
 
 ## 📡 API Utilizada
 
-**TheMealDB** — [https://www.themealdb.com/api.php]
-(https://www.themealdb.com/api.php)
+**TheMealDB** — [https://www.themealdb.com/api.php](https://www.themealdb.com/api.php)
 
 - ✅ Gratuita
 - ✅ Sem necessidade de chave de API
