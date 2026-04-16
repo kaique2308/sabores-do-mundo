@@ -1,0 +1,234 @@
+/* Hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 80px 0 60px;
+  border-bottom: 1px solid var(--border);
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--cream);
+}
+
+.heroTitle em {
+  font-style: italic;
+  color: var(--amber);
+}
+
+.heroSub {
+  font-size: 0.95rem;
+  color: var(--cream-dim);
+  max-width: 420px;
+  line-height: 1.7;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.btnPrimary {
+  padding: 12px 28px;
+  background: var(--amber);
+  color: #0f0700;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: var(--radius);
+  letter-spacing: 0.04em;
+  transition: background var(--transition), transform var(--transition);
+  display: inline-block;
+}
+
+.btnPrimary:hover {
+  background: var(--amber-light);
+  transform: translateY(-2px);
+}
+
+.btnGhost {
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  letter-spacing: 0.04em;
+  transition: color var(--transition);
+}
+
+.btnGhost:hover { color: var(--amber); }
+
+/* Hero visual */
+.heroVisual {
+  position: relative;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImgStack {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.heroImg {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  border: 3px solid var(--bg-2);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+}
+
+.heroImg:nth-child(1) { top: 0; left: 0; z-index: 3; }
+.heroImg:nth-child(2) { top: 60px; left: 80px; z-index: 2; filter: brightness(0.6); }
+.heroImg:nth-child(3) { top: 120px; left: 40px; z-index: 1; filter: brightness(0.4); }
+
+.heroDecor {
+  position: absolute;
+  right: -200px;
+  top: -200px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(232,147,10,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Sections */
+.section { padding: 64px 0; }
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.sectionTitle {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+.seeAll {
+  font-size: 0.8rem;
+  color: var(--amber-dim);
+  letter-spacing: 0.04em;
+  transition: color var(--transition);
+}
+
+.seeAll:hover { color: var(--amber); }
+
+/* Category grid */
+.catGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 12px;
+}
+
+.catCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.catCard:hover {
+  border-color: var(--amber-dim);
+  transform: translateY(-3px);
+}
+
+.catImg {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.catName {
+  font-size: 0.72rem;
+  text-align: center;
+  color: var(--cream-dim);
+  letter-spacing: 0.03em;
+}
+
+/* Recipe grid */
+.recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(135deg, #1c0e00 0%, #2a1500 100%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 48px 0;
+}
+
+.bannerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.bannerTitle {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+.bannerSub {
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .heroInner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .heroVisual { display: none; }
+
+  .catGrid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  }
+}

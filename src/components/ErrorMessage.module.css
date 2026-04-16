@@ -1,0 +1,29 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 64px 20px;
+  text-align: center;
+}
+
+.icon { font-size: 2rem; }
+
+.msg {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  max-width: 320px;
+}
+
+.btn {
+  margin-top: 8px;
+  padding: 8px 20px;
+  background: var(--amber);
+  color: #000;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: var(--radius);
+  transition: background var(--transition);
+}
+
+.btn:hover { background: var(--amber-light); }
