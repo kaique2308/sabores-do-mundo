@@ -21,6 +21,7 @@ Aplicação React que consome a [TheMealDB API](https://www.themealdb.com/api.ph
 **Página de uma Receita**
 
 <img width="1366" height="768" alt="Receita" src="https://github.com/user-attachments/assets/2cb0f314-1fe9-4694-a040-9ead36d19a6b" />
+
 <img width="1366" height="768" alt="Modo de Preparo" src="https://github.com/user-attachments/assets/017640ef-a47a-42eb-b786-8b1b6732ea95" />
 
 ---
