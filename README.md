@@ -92,6 +92,13 @@ TheMealDB API (REST, gratuita)
         ▼
   Usuário (Browser)
 ```
+---
+## 🧱 Imagem da Arquitetura
+
+<img width="1536" height="1024" alt="ChatGPT Image 29 de abr  de 2026, 00_49_18" src="https://github.com/user-attachments/assets/eaa0cd85-3c88-46c9-84fa-29dc84a459a8" />
+
+
+---
 
 ### Rotas da aplicação
 
